@@ -1,22 +1,13 @@
 package jump2java;
 
-import java.util.ArrayList;
-
 public class practice {
 	public static void main(String[] args) {
-		
-		ArrayList<String> pitches = new ArrayList<String>();
-		
-		pitches.add("138");
-		pitches.add("129");
-		pitches.add("142");
-		
-		System.out.println(pitches.get(1));
-		System.out.println(pitches.size());
-		System.out.println(pitches.contains("142"));
-		System.out.println(pitches.remove("129"));
-		System.out.println(pitches.size());
-		System.out.println(pitches.remove(0));
-		
-	}
+		int[] marks = {90, 25, 67, 45, 80};
+		for(int i=0; i<marks.length; i++) {
+		    if (marks[i] < 60) {
+		    	continue;
+		    }
+		    System.out.println((i+1)+"번 학생 축하합니다. 합격입니다.");
+		}
+    }
 }
