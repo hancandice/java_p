@@ -1,16 +1,11 @@
 package jump2java;
 
+import java.util.Scanner;
+
 public class Test {
-	int a;
-	
-	public void vartest2() {
-		this.a++;
-	}
-	
 	public static void main(String[] args) {
-		Test myTest = new Test();
-		myTest.a = 1;
-		myTest.vartest2();
-	    System.out.println(myTest.a);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println(sc.nextLine());
 	}
 }
