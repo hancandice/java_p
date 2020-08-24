@@ -48,7 +48,7 @@ public class SubDate {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(SubDate.sub("20200527", "19921127"));
+		System.out.println(SubDate.sub("20200527", "19900222"));
 	}
 
 }
